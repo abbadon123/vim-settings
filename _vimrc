@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-obsession'
+" Plugin 'tpope/vim-obsession'
 " Plugin 'vim-scripts/YankRing.vim'
 " Plugin 'maxbrunsfeld/vim-yankstack'
 
