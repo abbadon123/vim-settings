@@ -1,14 +1,18 @@
 set langmenu=en_US.UTF-8   " sets the language of the menu (gvim)
-language messages en
 
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 
+" linux
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
+" windows
 set rtp+=~/vimfiles/bundle/Vundle.vim/
 let path='~/vimfiles/bundle'
 call vundle#begin(path)
 " let Vundle manage Vundle, required
+
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'altercation/vim-colors-solarized'
