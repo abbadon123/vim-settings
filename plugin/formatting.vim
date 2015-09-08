@@ -14,8 +14,6 @@ set shiftround
 " insert blanks according to shiftwidth, not tabstop
 set smarttab
 
-" load filetype specific indent files
-filetype indent on
 " copy idnent from previous line
 set autoindent
 " copy the previous indentation on autoindenting
