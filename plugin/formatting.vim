@@ -1,14 +1,34 @@
-set wrap        " wrap lines
-set tabstop=4     " a tab is four spaces
+" wrap lines
+set wrap
+
+
+" number of spaces in TAB
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+" never use tabs, expand TAB in edit mode to spaces
 set expandtab
+" indenting with < or > is rounded to shiftwidth
+set shiftround
+
+" insert blanks according to shiftwidth, not tabstop
+set smarttab
+
+" load filetype specific indent files
+filetype indent on
+" copy idnent from previous line
+set autoindent
+" copy the previous indentation on autoindenting
+set copyindent
+
+
+" always show line numbers
+set number
+
+
+" allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-                  " allow backspacing over everything in insert mode
-set autoindent    " always set autoindenting on
-set smartindent
-set copyindent    " copy the previous indentation on autoindenting
-set number        " always show line numbers
-set shiftwidth=4  " number of spaces to use for autoindenting
-set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
+
 
 set list
-set listchars=tab:\|\ ,eol:$
+set listchars=tab:\|\ ,eol:$,trail:.
