@@ -32,6 +32,10 @@ Plugin 'godlygeek/tabular'
 
 Plugin 'bronson/vim-visual-star-search'
 
+Plugin 'tpope/vim-commentary'
+
+Plugin 'tpope/vim-surround'
+
 
 
 " All of your Plugins must be added before the following line
