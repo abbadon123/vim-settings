@@ -1,8 +1,9 @@
 # test title
 
 Two things to be done:
-    - set myvundle path
-    - add this folder to runtime and rune myvimrc script
+
+- set myvundle path
+- add this folder to runtime and rune myvimrc script
 
 ## linux 
 
