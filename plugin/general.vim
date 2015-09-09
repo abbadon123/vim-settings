@@ -28,9 +28,9 @@ inoremap jk <esc>
 
 
 " TODO add comment
-" set nobackup
-" set noswapfile
-" set noundofile
+set nobackup
+set noswapfile
+set noundofile
 " set backup
 " set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " set backupskip=/tmp/*,/private/tmp/*
@@ -40,3 +40,4 @@ inoremap jk <esc>
 
 " hides buffers (files) without closing them, you can edit multiple files
 set hidden
+

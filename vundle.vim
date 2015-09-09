@@ -27,7 +27,14 @@ Plugin 'kien/ctrlp.vim'
 " Plugin 'vim-pandoc/vim-pandoc-syntax' 
 " Plugin 'tpope/vim-markdown'
 
+Plugin 'godlygeek/tabular'
+
+
+Plugin 'bronson/vim-visual-star-search'
+
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
 filetype plugin indent on    " required
