@@ -20,6 +20,8 @@ Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 
 " Plugin 'tpope/vim-obsession'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-session'
 " Plugin 'vim-scripts/YankRing.vim'
 " Plugin 'maxbrunsfeld/vim-yankstack'
 
