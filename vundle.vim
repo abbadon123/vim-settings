@@ -17,11 +17,10 @@ Plugin 'reedes/vim-colors-pencil'
 
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'bling/vim-airline'
-Plugin 'kien/ctrlp.vim'
-
+" Plugin 'kien/ctrlp.vim'
 " Plugin 'tpope/vim-obsession'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-session'
+" Plugin 'xolox/vim-misc'
+" Plugin 'xolox/vim-session'
 " Plugin 'vim-scripts/YankRing.vim'
 " Plugin 'maxbrunsfeld/vim-yankstack'
 
@@ -31,13 +30,11 @@ Plugin 'xolox/vim-session'
 
 Plugin 'godlygeek/tabular'
 
-
 Plugin 'bronson/vim-visual-star-search'
 
 Plugin 'tpope/vim-commentary'
 
 Plugin 'tpope/vim-surround'
-
 
 
 " All of your Plugins must be added before the following line
