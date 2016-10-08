@@ -38,6 +38,7 @@ Plugin 'tpope/vim-surround'
 
 Plugin 'LIttleAncientForestKami/presenting.vim'
 
+Plugin 'ekalinin/Dockerfile.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
