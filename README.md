@@ -8,6 +8,7 @@ let MYVUNDLE='$HOME/myvim'
 set runtimepath+=$HOME/myvim/vim-settings
 runtime myvimrc
 EOF
+```
 
 first time in vim run: PluginInstall
 
