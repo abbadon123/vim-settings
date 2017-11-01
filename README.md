@@ -1,4 +1,5 @@
 ## how to linux 
+```bash
 mkdir ~/myvim; cd myvim
 git clone https://github.com/abbadon123/vim-settings.git
 git clone https://github.com/VundleVim/Vundle.vim.git
