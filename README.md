@@ -1,16 +1,16 @@
-# How to
+## how to linux 
+mkdir ~/myvim; cd myvim
+git clone https://github.com/abbadon123/vim-settings.git
+git clone https://github.com/VundleVim/Vundle.vim.git
+cat > ~/.vimrc <<EOF
+let MYVUNDLE='$HOME/myvim'
+set runtimepath+=$HOME/myvim/vim-settings
+runtime myvimrc
+EOF
 
-- set variable MYVUNDLE to yout favourite vundle path
-- add this folder to vim runtime and run myvimrc script
+first time in vim run: PluginInstall
 
-## linux 
-
-    let MYVUNDLE='/home/my-favourite-path/bundle'
-    set runtimepath+=/home/best-path-ever/vim-settings
-    runtime myvimrc
-
-
-## windows
+## how to windows
 
     let MYVUNDLE='c:\my-favoruite-path\bundle'
     set runtimepath+=c:\vim-settings
